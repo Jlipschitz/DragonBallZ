@@ -1,0 +1,11 @@
+.initial {
+	border:1px solid blue;
+	width:150px;
+	float: left;
+	padding: 5%;
+	margin:15px 15px 15px 15px;
+	border-radius: 100px;
+}
+#attackButton {
+	border-radius: 10px;
+}
