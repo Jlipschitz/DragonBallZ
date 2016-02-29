@@ -25,13 +25,14 @@ margin-top: 250px;
 	width: 150px;
 	height:50px;
 	margin-left:20px;
-	color:white;
-	background-color: black;
+	color:#9c1617;
+	background-color: #fa9312;
 	font-size:25px;
 }
 #attackButton:hover {
 	color:black;
-	background-color: white;
+	background-color: #9c1617;
+	color: #fa9312;
 }
 #attackButton:active {
 	-webkit-animation-name: thumb;
@@ -81,8 +82,8 @@ margin-top: 8px;
 	border:1px solid black;
 	border-radius:10px;
 	padding:5px;
-	color:white;
-	background-color: black;
+	color:#9c1617;
+	background-color: #fa9312;
 }
 .third {
 	float:left;
@@ -90,11 +91,11 @@ margin-top: 8px;
 	clear:both;
 	margin-left: 150px;
 	font-size:30px;
-	border:1px solid black;
+	border:1px solid #fa9312;
 	border-radius:10px;
 	padding:15px;
-	color:white;
-	background-color: black;
+	color:#fa9312 ;
+	background-color: white;
 }
 .messages {
 	float: left;
