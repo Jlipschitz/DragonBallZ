@@ -5,19 +5,29 @@
 	background-blend-mode: all;
 	border-radius: 20px;
 }
-.phase-two-choice {
-
+.phase-two-standby {
+	float: right;
+	margin-top: 100px;
+	background-blend-mode: all;
+	border-radius: 20px;
+	padding:10px;
 }
 .phase-two-enemy {
-
+float:left;
+margin-top: 250px;
 }
-.phase-two-standby {
-
+.phase-two-chosen {
+	margin-top: 250px;
+	padding:10px;
 }
 #attackButton {
 	border-radius: 10px;
 	width: 150px;
 	height:50px;
+	margin-left:20px;
+	color:white;
+	background-color: black;
+	font-size:25px;
 }
 
 .stats {
@@ -31,12 +41,12 @@ margin-top: 8px;
 	text-align: center;
 	color:black;
 }
-#greenAttack {
+.greenAttack {
 	color:green;
 }
-#blueHealth {
+.blueHealth {
 	color: blue;
 }
-#orangeCounter {
+.redCounter {
 	color:red;
 }
