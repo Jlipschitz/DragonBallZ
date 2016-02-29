@@ -29,6 +29,17 @@ margin-top: 250px;
 	background-color: black;
 	font-size:25px;
 }
+#attackButton:hover {
+	color:black;
+	background-color: white;
+}
+#attackButton:active {
+	-webkit-animation-name: thumb;
+  -webkit-animation-duration: 200ms;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-iteration-count: 2;
+  -webkit-animation-timing-function: linear;
+}
 
 .stats {
 text-align: center;
@@ -50,3 +61,46 @@ margin-top: 8px;
 .redCounter {
 	color:red;
 }
+
+@-webkit-keyframes thumb {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+.second {
+	float:right;
+	margin-right:50px;
+	margin-top: 200px;
+	font-size:30px;
+	border:1px solid black;
+	border-radius:10px;
+	padding:5px;
+	color:white;
+	background-color: black;
+}
+.third {
+	float:left;
+	margin-top: 20px;
+	clear:both;
+	margin-left: 150px;
+	font-size:30px;
+	border:1px solid black;
+	border-radius:10px;
+	padding:15px;
+	color:white;
+	background-color: black;
+}
+.messages {
+	float: left;
+	clear: both;
+	margin-left: 150px;
+	padding-top: 20px;
+	font-size: 20px;
+}
+.dim {opacity:0.1;filter:alpha(opacity=90);}
