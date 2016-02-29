@@ -1,11 +1,42 @@
-.initial {
-	border:1px solid blue;
-	width:150px;
+.phase-one {
 	float: left;
-	padding: 5%;
-	margin:15px 15px 15px 15px;
-	border-radius: 100px;
+	margin-left: 100px;
+	margin-top: 100px;
+	background-blend-mode: all;
+	border-radius: 20px;
+}
+.phase-two-choice {
+
+}
+.phase-two-enemy {
+
+}
+.phase-two-standby {
+
 }
 #attackButton {
 	border-radius: 10px;
+	width: 150px;
+	height:50px;
+}
+
+.stats {
+text-align: center;
+font-size: 18px;
+margin-top: 8px;
+}
+.displayName {
+	font-size: 28px;
+	color:black;
+	text-align: center;
+	color:black;
+}
+#greenAttack {
+	color:green;
+}
+#blueHealth {
+	color: blue;
+}
+#orangeCounter {
+	color:red;
 }
